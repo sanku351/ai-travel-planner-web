@@ -1,11 +1,33 @@
 # AI Travel Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered smart travel planning app for discovering destinations, creating personalized itineraries, and managing trips effortlessly.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Smart City-Based Travel Planning
+- 🗺️ Location Search with OpenStreetMap + Nominatim
+- 🧠 AI Suggestions using Gemini API
+- 🏨 Hotel, Restaurant & Attraction Discovery
+- 📅 Trip Builder: Select travelers, date, budget, and more
+- 🔐 User Authentication (Firebase)
+- ☁️ Data Storage with Firebase Firestore
+
+## 📱 Tech Stack
+
+- **Frontend:** React.js
+- **Backend:** Node.js + Axios
+- **Database:** Firebase Firestore
+- **APIs Used:**
+  - OpenStreetMap + Nominatim (Location Search)
+  - Unsplash (Images)
+  - Gemini API (AI Recommendations)
+
+## ⚙️ Setup Instructions
+
+1. **Clone the Repo**
+   ```bash
+   git clone https://github.com/your-username/ai-travel-planner.git
+   cd ai-travel-planner
 
 ## Expanding the ESLint configuration
 
