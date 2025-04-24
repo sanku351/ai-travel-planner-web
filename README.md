@@ -1,6 +1,6 @@
 # AI Travel Planner
 
-AI-powered smart travel planning app for discovering destinations, creating personalized itineraries, and managing trips effortlessly.
+AI-powered smart travel planning web app for discovering destinations, creating personalized itineraries, and managing trips effortlessly.
 
 ## 🚀 Features
 
@@ -25,10 +25,21 @@ AI-powered smart travel planning app for discovering destinations, creating pers
 ## ⚙️ Setup Instructions
 
 1. **Clone the Repo**
-   ```bash
-   git clone https://github.com/your-username/ai-travel-planner.git
-   cd ai-travel-planner
+   git clone https://github.com/sanku351/ai-travel-planner-web.git
+   cd ai-travel-planner-web
 
-## Expanding the ESLint configuration
+2. **Install Dependencies**
+   npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Configure Firebase**
+   Add your firebaseConfig in the project.
+   Enable Authentication and Firestore in Firebase Console.
+
+4. **Create `.env.local` file**
+   Configure environment variables in the root directory
+
+5. **Start the development server**
+   npm run dev
+
+# License
+  This project is licensed under the MIT License.
