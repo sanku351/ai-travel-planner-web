@@ -26,7 +26,7 @@ AI-powered smart travel planning web app for discovering destinations, creating 
 
 1. **Clone the Repo**
    git clone https://github.com/sanku351/ai-travel-planner-web.git
-   cd ai-travel-planner-web
+         cd ai-travel-planner-web
 
 2. **Install Dependencies**
    npm install
