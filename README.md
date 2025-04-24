@@ -26,19 +26,21 @@ AI-powered smart travel planning web app for discovering destinations, creating 
 
 1. **Clone the Repo**
    git clone https://github.com/sanku351/ai-travel-planner-web.git
-         cd ai-travel-planner-web
 
-2. **Install Dependencies**
+2. **Navigate to project directory**
+   cd ai-travel-planner-web
+
+3. **Install Dependencies**
    npm install
 
-3. **Configure Firebase**
+4. **Configure Firebase**
    Add your firebaseConfig in the project.
    Enable Authentication and Firestore in Firebase Console.
 
-4. **Create `.env.local` file**
+5. **Create `.env.local` file**
    Configure environment variables in the root directory
 
-5. **Start the development server**
+6. **Start the development server**
    npm run dev
 
 # License
