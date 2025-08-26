@@ -236,16 +236,20 @@ function CreateTrip() {
                     {loading ? <AiOutlineLoading3Quarters className='h-7 w-7 animate-spin' /> : 'Generate Trip'}</Button>
             </div>
             <Dialog open={openDialog} onOpenChange={setOpenDialog}>
-                <DialogContent className="w-[50%] max-w-sm">
-                    <div className="flex flex-col items-center justify-center text-center min-h-[200px]">
-                        <img src="/logo.svg" className="w-20 h-20 mb-4" alt="logo" />
-                        <h2 className="font-bold text-lg mt-2">Sign In with Google</h2>
+                <DialogContent className="w-[95%] sm:w-[90%] md:w-[70%] lg:w-[40%] xl:w-[30%] max-w-lg">
+                    <div className="flex flex-col items-center justify-center text-center min-h-[200px] p-4">
+                        <img
+                            src="/logo.svg"
+                            className="w-20 h-20 sm:w-24 sm:h-24 mb-4"
+                            alt="logo"
+                        />
+                        <h2 className="font-bold text-lg sm:text-xl mt-2">Sign In with Google</h2>
                         <Button
                             onClick={login}
-                            className="w-full mt-5 flex justify-center gap-3 items-center"
+                            className="w-full mt-5 flex justify-center gap-3 items-center py-3 text-sm sm:text-base"
                         >
                             <FcGoogle className="w-6 h-6" />
-                            Sign In with Google
+                            <span>Sign In with Google</span>
                         </Button>
                     </div>
                 </DialogContent>
